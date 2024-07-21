@@ -1,0 +1,131 @@
+#contact {
+  flex-direction: column;
+  background-image: url(../assets/images/background_contacts.png);
+  background-size: cover;
+  padding-block: 128px 200px;
+  max-width: 1366px;
+  padding-inline: 450px;
+
+
+  header {
+    p {
+      color: var(--color-purple);
+      font: var(--subtitle);
+    }
+
+    h1 {
+      color: var(--gray-600);
+      font: var(--title-md);
+    }
+
+    h3 {
+      color: var(--gray-500);
+      font: var(--text-md);
+    }
+  }
+
+  div {
+    flex-direction: column;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 20px;
+      border-radius: 8px;
+      background-color: var(--gray-300);
+
+      text-decoration: none;
+
+      color: var(--gray-500);
+      font: var(--text-md);
+
+      span {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      img:nth-child(1) {
+        width: 28px;
+      }
+
+      &:hover {
+        border: 1.5px solid var(--color-blue);
+        padding: calc(20px - 1px);
+        color: var(--gray-600);
+      }
+
+      div {
+        width: 20px;
+        height: 20px;
+        background-image: url(../assets/icons/arrow-up-right.svg);
+        background-size: cover;
+      }
+
+      &:hover div {
+        background-image: url(../assets/icons/arrow-up-right-hover.svg);
+        width: 20px;
+        height: 20px;
+      }
+
+      &:hover #linkedin {
+        background-image: url(../assets/icons/linkedin-hover.svg);
+        width: 28px;
+        height: 28px;
+        background-size: cover;        
+      }
+
+      &:hover #instagram {
+        background-image: url(../assets/icons/instagram-hover.svg);
+        width: 28px;
+        height: 28px;
+        background-size: cover;
+      }
+
+      &:hover #github {
+        background-image: url(../assets/icons/gitHub-logo-hover.svg);
+        width: 28px;
+        height: 28px;
+        background-size: cover;
+      }
+
+      &:hover #email {
+        background-image: url(../assets/icons/email-hover.svg);
+        width: 28px;
+        height: 28px;
+        background-size: cover;
+      }
+    }
+  }
+
+
+  #linkedin {
+    width: 28px;
+    height: 28px;
+    background-image: url(../assets/icons/linkedin.svg);
+    background-size: cover;
+  }
+
+  #instagram {
+    width: 28px;
+    height: 28px;
+    background-image: url(../assets/icons/instagram.svg);
+    background-size: cover;
+  }
+
+  #github {
+    width: 28px;
+    height: 28px;
+    background-image: url(../assets/icons/github-logo.svg);
+    background-size: cover;
+  }
+
+  #email {
+    width: 28px;
+    height: 28px;
+    background-image: url(../assets/icons/envelope-simple.svg);
+    background-size: cover;
+  }
+}

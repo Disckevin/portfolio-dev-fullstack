@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Dev</title>
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="intro" class="container flex">
+      <div class="flex">
+        <div id="usuario" class="flex">
+          <img src="assets/images/usuario.png" alt="foto do usuário" />
+
+          <div>
+            <h2>Hello World! Meu nome é <span>Kevin Bazilio</span> e sou</h2>
+            <h1>Desenvolvedor Fullstack</h1>
+            <p>
+              Transformo necessidades em aplicações reais, evolventes e
+              funcionais. Desenvolvo sistemas através da <br />
+              minha paixão pela tecnologia, contribuindo com soluções inovadoras
+              e eficazes para desafios complexos.
+            </p>
+          </div>
+        </div>
+
+        <div id="tags">
+          <ul class="flex gap-16">
+            <li>
+              <img
+                src="assets/icons/tech icon/gitHub.svg"
+                alt="github icon"
+                class="github-icon"
+              />
+              GitHub
+            </li>
+            <li>
+              <img src="assets/icons/tech icon/html.svg" alt="html icon" />
+              HTML
+            </li>
+            <li>
+              <img src="assets/icons/tech icon/css.svg" alt="css icon" />
+              CSS
+            </li>
+            <li>
+              <img
+                src="assets/icons/tech icon/javascript.svg"
+                alt="javascript icon"
+              />
+              Javascript
+            </li>
+            <li>
+              <img src="assets/icons/tech icon/react.svg" alt="react icon" />
+              Reeact
+            </li>
+            <li>
+              <img src="assets/icons/tech icon/node-js.svg" alt="nodejs icon" />
+              Node.js
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <img src="assets/icons/caret-double-down.svg" alt="dupla seta apontando para baixo" />
+    </header>
+
+    <main class="grid">
+      <section id="projects" class="container grid gap-56">
+        <header class="grid gap-8">
+          <h2>Meu trabalho</h2>
+          <h1>Veja os projetos em destaque</h1>
+        </header>
+
+        <div id="project-cards" class="grid">
+          <a href="https://disckevin.github.io/travelgram-fullstack/" target="_blank" id="travelgram" class="grid project-card">
+            <img
+              src="assets/images/thumbnail_project-01.png"
+              alt="travelgram"
+            />
+            <h3>Travelgram</h3>
+            <p>
+              Rede social onde as pessoas mostram os <br />
+              registros de suas viagens pelo mundo
+            </p>
+          </a>
+        
+          <a href="https://disckevin.github.io/portal-de-noticias-fullstack/" target="_blank" id="tech-news" class="grid project-card">
+            <img src="assets/images/thumbnail_project-02.png" alt="Tech News" />
+            <h3>Tech News</h3>
+            <p>
+              Homepage de um portal de notícias sobre a <br />
+              área de tecnologia
+            </p>
+          </a>
+
+          <a href="https://disckevin.github.io/pagina-de-receitas-fullstack/" target="_blank" id="pagina-receita" class="grid project-card">
+            <img
+              src="assets/images/thumbnail_project-03.png"
+              alt="Página de receita"
+            />
+            <h3>Página de receita</h3>
+            <p>
+              Página com o passo a passo de uma receita <br />
+              para cupcakes
+            </p>
+          </a>
+
+          <a href="#" id="zingen" class="grid project-card">
+            <img src="assets/images/thumbnail_project-04.png" alt="Zingen" />
+            <h3>Zingen</h3>
+            <p>
+              Landing Page completa e responsiva de um <br />
+              aplicativo de Karaokê
+            </p>
+          </a>
+
+          <a href="#" id="refund" class="grid project-card">
+            <img src="assets/images/thumbnail_project-05.png" alt="Refund" />
+            <h3>Refund</h3>
+            <p>
+              Um sistema para pedido e acompanhamento <br />
+              de reembolso
+            </p>
+          </a>
+
+          <a href="https://disckevin.github.io/local-turistico-fullstack/" target="_blank" id="pagina-turismo" class="grid project-card">
+            <img
+              src="assets/images/thumbnail_project-06.png"
+              alt="Página de turismo"
+            />
+            <h3>Página de turismo</h3>
+            <p>
+              Página com as principais informações para <br />
+              quem quer viajar para Busan
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <section id="services" class="container grid gap-56">
+        <header class="grid gap-8">
+          <h2>Meus Serviços</h2>
+          <h1>Como posso ajudar o seu negócio</h1>
+        </header>
+
+        <div id="cards" class="flex gap-24">
+          <div class="card">
+            <img src="assets/icons/devices.svg" alt="devices icon">
+            <h3>Websites e Aplicativos</h3>
+            <p>Desenvolvimento de interfaces</p>
+          </div>
+
+          <div class="card">
+            <img src="assets/icons/hard-drives.svg" alt="hard drives icon">
+            <h3>API e banco de dados</h3>
+            <p>Criação de serviços do sistema</p>
+          </div>
+
+          <div class="card">
+            <img src="assets/icons/infinity.svg" alt="infinity icon">
+            <h3>DevOps</h3>
+            <p>Gestão e infraestrutura da aplicação</p>
+          </div>                    
+        </div>
+      </section>
+
+      <section id="contact" class="flex gap-56">
+        <header class="grid gap-8">
+          <p>Contato</p>
+          <h1>Gostou do meu trabalho? </h1>
+          <h3>Entre em contato ou acompanhe as minhas redes sociais!</h3>
+        </header>
+
+        <div class="flex gap-16">
+          <a href="#">
+            <span>
+              <span id="linkedin"></span>
+              Linkedin
+            </span>
+            <div></div>
+          </a>
+
+          <a href="#" >
+            <span>
+              <span id="instagram"></span>
+              Instagram
+            </span>
+            <div></div>
+          </a>
+
+          <a href="#" >
+            <span>
+              <span id="github"></span>
+              GitHub
+            </span>
+            <div></div>
+          </a>
+
+          <a href="#" >
+            <span>
+              <span id="email"></span>
+              E-mail
+            </span>
+            <div></div>
+          </a>
+        </div>
+      </section>
+
+    </main> 
+    
+  </body>
+</html>

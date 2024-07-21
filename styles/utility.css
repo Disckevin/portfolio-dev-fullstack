@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+}
+
+.gap-16{
+  gap: 16px;
+}
+
+.gap-8{
+  gap: 8px;
+}
+
+.gap-56{
+  gap: 56px;
+}
+
+.gap-24{
+  gap: 24px;
+}
+
+.grid{
+  display: grid;
+}
+
+section header{
+    justify-items: center;
+  
+    h2 {
+      font: var(--subtitle);
+      color: var(--color-red);
+    }
+  
+    h1 {
+      font: var(--title-md);
+      color: var(--gray-600);
+    } 
+}
